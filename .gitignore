@@ -128,15 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Project specific
-data/
-*.npy
-*.png
-*.jpg
-*.jpeg
-*.tiff
-*.tif
-
 # Model files
 *.pth
 *.pt
