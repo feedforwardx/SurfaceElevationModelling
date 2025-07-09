@@ -39,6 +39,11 @@ SurfaceElevationModelling/
 ├── requirements.txt              # Python dependencies
 └── README.md                     # This file
 ```
+### OUTPUTS
+
+| Pipeline Visualization | DEM Output Example |
+|------------------------|-------------------|
+| ![Pipeline](outputs/figures/pipeline.png) | ![DEM Output](outputs/dem/outputs.png) |
 
 ## 🚀 Quick Start
 
@@ -142,12 +147,6 @@ The main pipeline (`src/lunar_dem_pipeline.py`) orchestrates all components:
 ## 📊 Outputs
 
 The pipeline generates several types of outputs:
-
-### Example Visualizations
-
-| Pipeline Visualization | DEM Output Example |
-|------------------------|-------------------|
-| ![Pipeline](outputs/figures/pipeline.png) | ![DEM Output](outputs/dem/outputs.png) |
 
 ### DEM Files
 - `*_relative.npy`: Relative DEM from SFS
