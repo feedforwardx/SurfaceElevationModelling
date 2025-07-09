@@ -41,9 +41,9 @@ SurfaceElevationModelling/
 ```
 ### OUTPUTS
 
-| Pipeline Visualization | DEM Output Example |
-|------------------------|-------------------|
-| ![Pipeline](outputs/figures/pipeline.png) | ![DEM Output](outputs/dem/outputs.png) |
+![Pipeline](outputs/figures/pipeline.png)
+
+![DEM Output](outputs/dem/outputs.png)
 
 ## 🚀 Quick Start
 
