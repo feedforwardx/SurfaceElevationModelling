@@ -11,6 +11,12 @@ A comprehensive Python package for generating Digital Elevation Models (DEMs) fr
 - **Comprehensive Visualization**: 2D/3D DEM visualization and analysis tools
 - **ISRO Data Integration**: Support for ISRO lunar mission data formats (OATH, OAT, SPM, LBR)
 
+### RESULTS
+
+![Pipeline](outputs/figures/pipeline.png)
+
+![DEM Output](outputs/dem/outputs.png)
+
 ## 📁 Project Structure
 
 ```
@@ -39,12 +45,6 @@ SurfaceElevationModelling/
 ├── requirements.txt              # Python dependencies
 └── README.md                     # This file
 ```
-### OUTPUTS
-
-![Pipeline](outputs/figures/pipeline.png)
-
-![DEM Output](outputs/dem/outputs.png)
-
 ## 🚀 Quick Start
 
 ### Installation
