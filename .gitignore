@@ -128,6 +128,15 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Project specific
+data/
+*.npy
+# *.png
+*.jpg
+*.jpeg
+*.tiff
+*.tif
+
 # Model files
 *.pth
 *.pt
@@ -144,3 +153,9 @@ Thumbs.db
 HAPKE CLAHE Based DEM.ipynb
 superresolution.ipynb
 dem-generation.ipynb
+
+
+# Allow output images
+!outputs/
+!outputs/**/*.png
+!outputs/**/*.npy
