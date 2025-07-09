@@ -2,7 +2,7 @@
 
 A comprehensive Python package for generating Digital Elevation Models (DEMs) from lunar satellite imagery using advanced photoclinometry and Shape-from-Shading techniques.
 
-## 🌙 Features
+## Features
 
 - **Photoclinometry DEM Generation**: Shape-from-Shading (SFS) algorithms for lunar surface reconstruction
 - **Multiple Reflectance Models**: Lambertian and Hapke reflectance models for accurate lunar surface modeling
@@ -45,7 +45,7 @@ SurfaceElevationModelling/
 ├── requirements.txt              # Python dependencies
 └── README.md                     # This file
 ```
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -144,7 +144,7 @@ The main pipeline (`src/lunar_dem_pipeline.py`) orchestrates all components:
 4. **Results Saving**: Save DEMs and statistics
 5. **Visualization**: Generate comprehensive plots
 
-## 📊 Outputs
+## Outputs
 
 The pipeline generates several types of outputs:
 
@@ -164,7 +164,7 @@ The pipeline generates several types of outputs:
 - Elevation statistics (min, max, mean, std)
 - Processing parameters and convergence info
 
-## 🎯 Use Cases
+## Use Cases
 
 ### Lunar Science
 - **Crater Analysis**: Study impact crater morphology
@@ -209,7 +209,7 @@ r = w/4/(μ₀+μ) * (1+B) * P * H(μ) * H(μ₀)
 - **Convergence**: Configurable iteration limits and thresholds
 - **Scalability**: Support for large image datasets
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -221,18 +221,11 @@ r = w/4/(μ₀+μ) * (1+B) * P * H(μ) * H(μ₀)
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **ISRO**: For lunar mission data and scientific collaboration
 - **Stability AI**: For Stable Diffusion upscaler models
 - **Scientific Community**: For foundational research in photoclinometry
-
-## 📞 Contact
-
-For questions and support:
-- **Email**: your.email@example.com
-- **Issues**: [GitHub Issues](https://github.com/yourusername/SurfaceElevationModelling/issues)
-- **Documentation**: [Wiki](https://github.com/yourusername/SurfaceElevationModelling/wiki)
 
 ---
 
